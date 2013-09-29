@@ -21,7 +21,8 @@
 # Copyright 2013 Your name here, unless otherwise noted.
 #
 class transmission::client (
-  $interface = $transmission:client::params::interface,
+  $package_name = $transmission::client::params::package_name,
+  $frontend     = $transmission::client::params::frontend,
 ) inherits transmission::client::params {
 
   include '::transmission::client::install'
