@@ -1,0 +1,3 @@
+fixtures:
+  symlinks:
+    transmission: "#{source_dir}"
