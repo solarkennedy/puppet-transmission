@@ -2,6 +2,8 @@ transmission
 
 This is the transmission module.
 
+[![Build Status](https://travis-ci.org/solarkennedy/puppet-transmission.png)](https://travis-ci.org/solarkennedy/puppet-transmission)
+
 DONT USE THIS YET
 
 License
