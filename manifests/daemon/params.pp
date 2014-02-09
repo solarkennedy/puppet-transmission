@@ -52,7 +52,7 @@
     $ratio_limit_enabled            =  false
     $rename_partial_files           =  true
     $rpc_authentication_required    =  true
-    $rpc_bind_address               =  "0.0.0.0"
+    $rpc_bind_address               =  "127.0.0.1"
     $rpc_enabled                    =  true
     $rpc_password                   =  ""
     $rpc_port                       =  9091
@@ -78,7 +78,7 @@
     $utp_enabled                    =  false
 
   case $::osfamily {
-    'Debian','RedHat': {
+    'Debian','Ubuntu': {
     $package_name = [ 'transmission-daemon' ]
     }
     default: { fail("You asked me to install the transmission-daemon on an OS I don't know about: $::osfamily") }
