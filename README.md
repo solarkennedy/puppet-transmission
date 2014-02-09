@@ -29,7 +29,7 @@ will be silently overwritten on exit.
 ## Usage ##
 
 This will create a basic `transmission-daemon` with enable RPC interfaces.
-User is `torrentt` and password is empty. It will allow everyone host 
+User is `torrent` and password is empty. It will allow everyone host 
 from the 10.1.1.0 network.
 
       class {'transmission::daemon':
