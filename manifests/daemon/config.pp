@@ -73,7 +73,7 @@ class transmission::daemon::config (
     $transmission_user              = 'debian-transmission',
     $transmission_group             = 'debian-transmission',
 
-) inherits transmission::daemon {
+) inherits transmission::daemon::params {
 
     file { "/etc/transmission-daemon/settings.json":
         ensure  => file,
